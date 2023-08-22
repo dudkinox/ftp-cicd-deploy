@@ -31,8 +31,9 @@ jobs:
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: dist
+        password: tu[10UzBL4V*1o
+        local-dir: dist/
+        remote-dir: public_html
   connect-to-server:
     needs: web-deploy
     runs-on: ubuntu-latest
