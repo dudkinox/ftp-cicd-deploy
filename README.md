@@ -33,7 +33,7 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: tu[10UzBL4V*1o
         local-dir: dist/
-        remote-dir: public_html
+        server-dir: domains/mateworker.com/public_html/
   connect-to-server:
     needs: web-deploy
     runs-on: ubuntu-latest
